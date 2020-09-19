@@ -24,6 +24,12 @@ document.addEventListener("DOMContentLoaded", function () {
         dots: true,
         prevArrow:'<button type="button" class="btn btn-danger slider-block__btn" id="top-arrow"><i class="fas fa-angle-double-left"></i></button>',
         nextArrow:'<button type="button" class="btn btn-danger slider-block__btn right-0" id="top-arrow"><i class="fas fa-angle-double-right"></i></button>'
-    })
+    });
+
+    window.addEventListener('resize', () => {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    });
+    
     
 });
