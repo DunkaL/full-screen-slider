@@ -139,10 +139,10 @@ body{
     }
 
     .slider-vertical__slide{
-        height: calc(100vh - 183px) !important;
+        height: 38rem !important;
     }
 
     .slider-block__slide {
-        height: calc(100vh - 183px) !important;
+        height: 38rem !important;
     }
 }
