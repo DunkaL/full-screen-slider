@@ -26,13 +26,18 @@ document.addEventListener("DOMContentLoaded", function () {
         nextArrow:'<button type="button" class="btn btn-danger slider-block__btn right-0" id="top-arrow"><i class="fas fa-angle-double-right"></i></button>'
     });
 
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-
-    window.addEventListener('resize', () => {
+    
+    function Height(){
         let vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', `${vh}px`);
+    }
+
+    Height();
+    
+    window.addEventListener('resize', () => {
+        Height();
     });
+
     
     
 });
