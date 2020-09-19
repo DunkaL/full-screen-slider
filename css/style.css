@@ -134,7 +134,8 @@ body{
     }
 
     .content{
-        height: calc(100vh - 98px);
+        position: sticky;
+        height: calc(100% - 38px);
     }
 
     .slider-vertical__slide{
