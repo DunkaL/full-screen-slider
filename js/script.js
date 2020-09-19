@@ -38,6 +38,16 @@ document.addEventListener("DOMContentLoaded", function () {
         Height();
     });
 
-    
+    $('#button-sidebar').click(function(){
+        $('#sidebar').toggleClass('bottom-0');
+    });
+
+    $('#button-header-sidebar').click(function(){
+        $('#sidebar').addClass('left-0');
+    });
+
+    $('#button-sidebar-close').click(function(){
+        $('#sidebar').removeClass('left-0');
+    });
     
 });

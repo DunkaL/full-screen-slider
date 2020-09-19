@@ -16,12 +16,37 @@
 <body style="background-color: #000">
     <div class="container-fluid h-100">
         <div class="row h-100">
-            <div class="sidebar">
-                <button type="button" class="btn btn-danger btn-sm mx-2">sidebar</button>
+            <div class="sidebar" id="sidebar">
+                <button type="button" class="btn btn-danger btn-sm mx-2 button-sidebar-close" id="button-sidebar-close"><i class="fas fa-times"></i></button>
+                <div class="text-center">
+                    <button type="button" class="btn btn-danger btn-sm mx-2 button-sidebar" id="button-sidebar"><i class="fas fa-angle-up"></i></button>
+                </div>
+                <div class="sidebar-content">
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                    <div class="block"></div>
+                </div>
             </div>
             <div class="col p-0 position-relative h-100">
                 <header class="header">
-                    <button type="button" class="btn btn-danger btn-sm mx-2">sidebar menu</button>
+                    <button type="button" class="btn btn-danger btn-sm mx-2 button-header" id="button-header-sidebar"><i class="fas fa-caret-right"></i></button>
+                    <div class="w-100 h-100 px-2 d-flex m-0 justify-content-between">
+                        <div class="logo"></div>
+                        <nav class="d-flex align-items-center">
+                            <li class="link"></li>
+                            <li class="link"></li>
+                            <li class="link"></li>
+                        </nav>
+                    </div>
                 </header>
                 <main class="col p-0 content"> 
                     <div id="slider-vertical">
@@ -77,8 +102,12 @@
                         
                         <div class="col d-flex align-items-center justify-content-end">
                             <div class="d-flex flex-column align-items-center">
-                                <button type="button" class="btn btn-danger btn-sm mb-1" id="top-arrow"><i class="fas fa-angle-up"></i></button>
-                                <button type="button" class="btn btn-danger btn-sm" id="bottom-arrow"><i class="fas fa-angle-down"></i></button>
+                                <button type="button" class="btn btn-danger btn-sm mb-1 slider-vertical-control__btn" id="top-arrow">
+                                    <i class="fas fa-angle-up"></i>
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm slider-vertical-control__btn" id="bottom-arrow">
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
                             </div>
                         </div>
                     
