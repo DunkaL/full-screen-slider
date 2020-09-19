@@ -134,15 +134,17 @@ body{
     }
 
     .content{
-        position: sticky;
-        height: calc(100% - 38px);
+        /* position: sticky; */
+        height: calc(100vh - 98px);
     }
 
     .slider-vertical__slide{
-        height: 38rem !important;
+        /* height: calc(100vh - 183px) !important; */
+        height: calc(100vh - 98px) !important;
     }
 
     .slider-block__slide {
-        height: 38rem !important;
+        /* height: calc(100vh - 183px) !important; */
+        height: calc(100vh - 98px) !important;
     }
 }
