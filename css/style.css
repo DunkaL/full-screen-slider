@@ -144,17 +144,17 @@ html, body {
     .content{
         /* height: calc(100vh - 98px); */
         height: 100vh; 
-        height: calc(var(--vh, 1vh) * 100 - 98px) !important;
+        height: calc(var(--vh, 1vh) * 150 - 98px) !important;
     }
 
     .slider-vertical__slide{
         /* height: calc(100vh - 183px) !important; */
         height: 100vh; 
-        height: calc(var(--vh, 1vh) * 100 - 183px) !important;
+        height: calc(var(--vh, 1vh) * 150 - 183px) !important;
     }
     .slider-block__slide {
         /* height: calc(100vh - 183px) !important; */
         height: 100vh; 
-        height: calc(var(--vh, 1vh) * 100 - 183px) !important;
+        height: calc(var(--vh, 1vh) * 150 - 183px) !important;
     }
 }
